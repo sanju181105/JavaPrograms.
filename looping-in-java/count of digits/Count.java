@@ -1,0 +1,13 @@
+import java.util.*;
+public class Count {
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+            int n=sc.nextInt();
+            int nn=0;
+            while(n!=0){
+                nn++;
+                n/=10;
+            }
+            System.out.println(nn);
+    }
+}
